@@ -1,10 +1,10 @@
-# dev-protfolio - Harika Marrapu - Java Developer Portfolio
+# dev-protfolio - Hari Govinda - Java Developer Portfolio
 
 A professional portfolio website showcasing my skills and experience as a Java Developer with 3 years of experience in the fintech industry.
 
 ## About Me
 
-- **Name:** Harika Marrapu
+- **Name:** Hari Govinda
 - **Profession:** Java Developer
 - **Experience:** 3 Years in Fintech Industry
 - **Education:** B.Tech Graduate

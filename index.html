@@ -3,37 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harika Marrapu | Java Developer Portfolio</title>
+    <title>Hari Govinda Marrapu | Java Developer Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
-            <a href="index.html" class="logo">HM</a>
+            <a href="index.html" class="logo">
+                <span class="logo-text">HG</span>
+                <span class="logo-sub">Marrapu</span>
+            </a>
             <ul class="nav-links">
                 <li><a href="index.html" class="active">Home</a></li>
                 <li><a href="services.html">Skills</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
         </div>
     </nav>
 
     <!-- Hero Section -->
     <header class="hero">
+        <div class="hero-bg"></div>
         <div class="container">
             <div class="hero-content">
-                <h1>Harika Marrapu</h1>
-                <p class="tagline">Java Developer | 3 Years Experience in Fintech</p>
+                <div class="hero-badge">Available for Work</div>
+                <h1>Hari Govinda <span class="highlight">Marrapu</span></h1>
+                <p class="tagline">Java Developer | Fintech Specialist | 3 Years Experience</p>
                 <p class="description">
-                    A passionate Java developer with 3 years of hands-on experience in building 
-                    robust and scalable applications in the fintech industry. Specialized in 
-                    Spring Boot, Microservices, and enterprise-grade solutions.
+                    Passionate Java Developer with 3+ years of expertise in building robust, 
+                    scalable financial applications. Specialized in Spring Boot, Microservices, 
+                    and enterprise-grade banking solutions.
                 </p>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">4+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">100%</span>
+                        <span class="stat-label">Client Satisfaction</span>
+                    </div>
+                </div>
                 <div class="hero-buttons">
-                    <a href="services.html" class="btn btn-primary">View My Skills</a>
-                    <a href="contact.html" class="btn btn-secondary">Contact Me</a>
+                    <a href="services.html" class="btn btn-primary">
+                        <i class="fas fa-code"></i> View My Skills
+                    </a>
+                    <a href="contact.html" class="btn btn-secondary">
+                        <i class="fas fa-paper-plane"></i> Contact Me
+                    </a>
+                </div>
+                <div class="social-links-hero">
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="mailto:harimarrapu54022@gmail.com" class="social-icon"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="code-window">
+                    <div class="window-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                    </div>
+                    <pre class="code-content">
+<span class="keyword">public class</span> <span class="class">Developer</span> {
+    <span class="keyword">private</span> String name = <span class="string">"Hari Govinda"</span>;
+    <span class="keyword">private</span> String[] skills = {
+        <span class="string">"Java"</span>, <span class="string">"Spring Boot"</span>,
+        <span class="string">"Microservices"</span>
+    };
+    <span class="keyword">private</span> <span class="type">int</span> experience = 3;
+    
+    <span class="keyword">public static void</span> <span class="method">main</span>(String[] args) {
+        Developer dev = <span class="keyword">new</span> Developer();
+        dev.<span class="method">buildAmazing</span>();
+    }
+}</pre>
                 </div>
             </div>
         </div>
@@ -42,37 +97,61 @@
     <!-- About Section -->
     <section class="about">
         <div class="container">
-            <h2>About Me</h2>
+            <div class="section-header">
+                <span class="section-tag">About Me</span>
+                <h2>Building Excellence in Fintech</h2>
+            </div>
             <div class="about-content">
                 <div class="about-text">
                     <p>
-                        I am a dedicated Java Developer with 3 years of professional experience 
-                        in the fintech industry. My expertise lies in building secure, scalable, 
-                        and high-performance applications that meet the demanding requirements 
-                        of the financial sector.
+                        As a dedicated Java Developer with <strong>3 years of hands-on experience</strong> in the 
+                        fintech industry, I specialize in building secure, scalable, and high-performance 
+                        banking applications that meet the demanding requirements of the financial sector.
                     </p>
                     <p>
-                        Throughout my career, I have worked on various banking and financial 
-                        projects, including credit systems, prepaid applications, customer portals, 
-                        and self-onboarding solutions. I am committed to writing clean, maintainable 
-                        code and following best practices in software development.
+                        Throughout my career, I've successfully delivered multiple enterprise-grade projects 
+                        including credit management systems, prepaid card applications, customer portals, 
+                        and automated onboarding solutions. My commitment to writing clean, maintainable code 
+                        and following industry best practices has resulted in reliable and efficient applications.
                     </p>
-                    <div class="education-box">
-                        <h3><i class="fas fa-graduation-cap"></i> Education</h3>
-                        <p><strong>B.Tech</strong> - Bachelor of Technology</p>
-                        <p class="edu-detail">Engineering Graduate</p>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Enterprise Application Development</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Microservices Architecture</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Database Design & Optimization</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>API Development & Integration</span>
+                        </div>
                     </div>
                 </div>
-                <div class="skills">
-                    <h3>Core Expertise</h3>
-                    <ul class="skills-list">
-                        <li><i class="fab fa-java"></i> Java</li>
-                        <li><i class="fas fa-leaf"></i> Spring Framework</li>
-                        <li><i class="fas fa-bolt"></i> Spring Boot</li>
-                        <li><i class="fas fa-network-wired"></i> Microservices</li>
-                        <li><i class="fas fa-database"></i> JPA & Hibernate</li>
-                        <li><i class="fas fa-server"></i> SQL & PL/SQL</li>
-                    </ul>
+                <div class="about-card">
+                    <div class="education-section">
+                        <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                        <div class="education-item">
+                            <h4>B.Tech</h4>
+                            <p>Bachelor of Technology</p>
+                            <span class="edu-year">Engineering Graduate</span>
+                        </div>
+                    </div>
+                    <div class="skills-preview">
+                        <h3><i class="fas fa-tools"></i> Top Skills</h3>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Java</span>
+                            <span class="skill-tag">Spring Boot</span>
+                            <span class="skill-tag">Microservices</span>
+                            <span class="skill-tag">Hibernate</span>
+                            <span class="skill-tag">SQL</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -81,74 +160,89 @@
     <!-- Projects Section -->
     <section class="projects">
         <div class="container">
-            <h2>Projects</h2>
+            <div class="section-header">
+                <span class="section-tag">My Work</span>
+                <h2>Featured Projects</h2>
+            </div>
             <div class="projects-grid">
                 <div class="project-card">
-                    <div class="project-header">
+                    <div class="project-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="project-content">
                         <h3>CDB Bank Credit</h3>
-                        <span class="project-location">Sri Lanka</span>
+                        <span class="project-location"><i class="fas fa-map-marker-alt"></i> Sri Lanka</span>
+                        <p class="project-description">
+                            Developed and maintained comprehensive credit management system for CDB Bank, 
+                            focusing on loan processing, credit evaluation, risk assessment, and regulatory compliance.
+                        </p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Spring Boot</span>
+                            <span>Microservices</span>
+                            <span>Hibernate</span>
+                        </div>
                     </div>
-                    <p class="project-description">
-                        Developed and maintained credit management system for CDB Bank, 
-                        focusing on loan processing, credit evaluation, and risk assessment.
-                    </p>
-                    <ul class="project-tech">
-                        <li>Java</li>
-                        <li>Spring Boot</li>
-                        <li>Microservices</li>
-                        <li>Hibernate</li>
-                    </ul>
                 </div>
 
                 <div class="project-card">
-                    <div class="project-header">
+                    <div class="project-icon">
+                        <i class="fas fa-credit-card"></i>
+                    </div>
+                    <div class="project-content">
                         <h3>Canara Bank Prepaid Application</h3>
-                        <span class="project-location">India</span>
+                        <span class="project-location"><i class="fas fa-map-marker-alt"></i> India</span>
+                        <p class="project-description">
+                            Built a comprehensive prepaid card management application enabling users to load, 
+                            manage, and track their prepaid card transactions with real-time updates.
+                        </p>
+                        <div class="project-tech">
+                            <span>Spring Boot</span>
+                            <span>REST APIs</span>
+                            <span>JPA</span>
+                            <span>SQL</span>
+                        </div>
                     </div>
-                    <p class="project-description">
-                        Built a comprehensive prepaid card management application enabling 
-                        users to load, manage, and track their prepaid card transactions.
-                    </p>
-                    <ul class="project-tech">
-                        <li>Spring Boot</li>
-                        <li>REST APIs</li>
-                        <li>JPA</li>
-                        <li>SQL</li>
-                    </ul>
                 </div>
 
                 <div class="project-card">
-                    <div class="project-header">
+                    <div class="project-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="project-content">
                         <h3>Customer Portal</h3>
-                        <span class="project-location">India</span>
+                        <span class="project-location"><i class="fas fa-map-marker-alt"></i> India</span>
+                        <p class="project-description">
+                            Developed a secure customer-facing portal for banking operations, providing 
+                            account management, transaction history, and 24/7 customer support access.
+                        </p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Spring MVC</span>
+                            <span>Hibernate</span>
+                            <span>JDBC</span>
+                        </div>
                     </div>
-                    <p class="project-description">
-                        Developed a secure customer-facing portal for banking operations, 
-                        providing account management, transaction history, and customer support.
-                    </p>
-                    <ul class="project-tech">
-                        <li>Java</li>
-                        <li>Spring MVC</li>
-                        <li>Hibernate</li>
-                        <li>JDBC</li>
-                    </ul>
                 </div>
 
                 <div class="project-card">
-                    <div class="project-header">
-                        <h3>Self Onboarding</h3>
-                        <span class="project-location">India</span>
+                    <div class="project-icon">
+                        <i class="fas fa-user-plus"></i>
                     </div>
-                    <p class="project-description">
-                        Created an automated self-onboarding system for new customers, 
-                        including KYC verification, document upload, and account activation.
-                    </p>
-                    <ul class="project-tech">
-                        <li>Spring Boot</li>
-                        <li>Microservices</li>
-                        <li>PL/SQL</li>
-                        <li>Security</li>
-                    </ul>
+                    <div class="project-content">
+                        <h3>Self Onboarding System</h3>
+                        <span class="project-location"><i class="fas fa-map-marker-alt"></i> India</span>
+                        <p class="project-description">
+                            Created an automated self-onboarding system for new customers, including 
+                            KYC verification, document upload, and instant account activation.
+                        </p>
+                        <div class="project-tech">
+                            <span>Spring Boot</span>
+                            <span>Microservices</span>
+                            <span>PL/SQL</span>
+                            <span>Security</span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -157,20 +251,33 @@
     <!-- Experience Section -->
     <section class="experience">
         <div class="container">
-            <h2>Professional Summary</h2>
-            <div class="experience-content">
-                <div class="experience-item">
-                    <div class="exp-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <div class="exp-details">
+            <div class="section-header">
+                <span class="section-tag">Journey</span>
+                <h2>Professional Summary</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Present</span>
                         <h3>Java Developer</h3>
                         <p class="exp-company">Fintech Industry</p>
-                        <p class="exp-duration">3 Years Experience</p>
                         <p class="exp-description">
-                            Developing enterprise-grade financial applications with focus on 
-                            security, scalability, and performance. Working on various banking 
-                            projects including credit systems, prepaid cards, and customer portals.
+                            Developing enterprise-grade financial applications with focus on security, 
+                            scalability, and performance. Working on various banking projects including 
+                            credit systems, prepaid cards, and customer portals.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">3 Years Ago</span>
+                        <h3>Started Career</h3>
+                        <p class="exp-company">Software Development</p>
+                        <p class="exp-description">
+                            Began journey as Java Developer, specializing in Spring framework and 
+                            building strong foundation in enterprise application development.
                         </p>
                     </div>
                 </div>
@@ -181,17 +288,40 @@
     <!-- CTA Section -->
     <section class="cta">
         <div class="container">
-            <h2>Let's Work Together</h2>
-            <p>I'm always open to discussing new opportunities and projects in the fintech domain.</p>
-            <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
+            <div class="cta-content">
+                <h2>Let's Build Something Amazing Together</h2>
+                <p>I'm always excited to discuss new opportunities and projects in the fintech domain.</p>
+                <div class="cta-buttons">
+                    <a href="contact.html" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i> Get In Touch
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
         <div class="container">
-            <p>&copy; 2026 Harika Marrapu. All rights reserved.</p>
-            <p>Java Developer | Fintech Specialist</p>
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Hari Govinda Marrapu</h3>
+                    <p>Java Developer | Fintech Specialist</p>
+                </div>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="services.html">Skills</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="mailto:harimarrapu54022@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Hari Govinda Marrapu. All Rights Reserved.</p>
+            </div>
         </div>
     </footer>
 </body>
